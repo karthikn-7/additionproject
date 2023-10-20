@@ -1,0 +1,63 @@
+<!--<h1 id="title">
+    Hello World
+</h1>
+<button onclick="change()">change</button>
+
+<script>
+    var title = document.getElementById("title")
+    console.log(title.textContent)
+
+    function change()
+    {
+        title.textContent = "Bye world!"
+    }
+
+    
+</script>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input from user</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Additon of two number using JAVASCRIPT</h2>
+    <input id="box1" placeholder="Enter First Number"><br>
+    <input id="box2" placeholder="Enter Second Number"><br>
+    <button onclick="add()">Add</button>
+    <p id="resultfunction">RESULT</p>
+
+    <div class="like">
+        <p class="text">
+            Hope you like this! please keep supporting to do my best in webdevolopment. <br>
+            Thank You!
+        </p>
+    </div>
+  
+
+
+
+    <script>
+        var box1 = document.getElementById("box1")
+        var box2 = document.getElementById("box2")
+
+        var resultfunction = document.getElementById("resultfunction")
+
+        
+        function add()
+        {
+            var total = Number(box1.value) + Number(box2.value)
+        console.log(total)
+
+            resultfunction.textContent = total
+        }
+
+
+
+    </script>
+</body>
+</html>
